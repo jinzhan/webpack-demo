@@ -10,7 +10,7 @@
 
 const webpack = require('webpack');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
-const SanLoaderPlugin = require('../lib/plugin');
+const SanLoaderPlugin = require('san-loader/lib/plugin');
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
@@ -32,7 +32,7 @@ module.exports = {
                         loader: require.resolve('san-hot-loader')
                     },
                     {
-                        loader: path.resolve(__dirname, '../index.js'),
+                        loader: 'san-loader',
                         options: {
                             compileTemplate: 'none'
                         }

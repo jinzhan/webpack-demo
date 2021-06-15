@@ -24,6 +24,7 @@
         "pug-plain-loader": "^1.0.0",
         "san": "~3.9.0",
         "san-hot-loader": "^0.1.1",
+        "san-loader": "^0.2.1",
         "san-store": "^2.0.2",
         "san-update": "^2.1.0",
         "style-loader": "^1.2.1",
